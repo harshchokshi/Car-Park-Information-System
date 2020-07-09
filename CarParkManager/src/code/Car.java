@@ -211,57 +211,34 @@ public class Car {
 		}
 		
 	}
-	
-	
+
 		
 		public void addMember() throws IOException {
-			
-			do {
-			getCars().add(new Car(licencePlate(),appartmentNum(), ownerName(), parkingSlot()));
-			char pressKey;
-			System.out.println("\n"+"Would you like to [R] / [r]dd another member or continue [M] / [m]onitoring car park?"+"\n");
-			try {
-				pressKey = getScan.next(".").charAt(0);
-				if (pressKey!='R' && pressKey != 'r' && pressKey !='m' && pressKey !='M') {
-					System.out.println("Invalid response !!!");
-					continue;
-				}
-				else if (pressKey == 'R' || pressKey == 'r') {
-					System.out.println(" ");
-					continue;
-				}
-				else {
-					break;
-				}
-			} catch (Exception e) {
-				System.out.println("Invalid response !!!");
-				getScan.nextLine();
-				continue;
-			}
-			
-			} while (true);
+			getCars().add(new Car(licencePlate(), appartmentNum(), ownerName(), parkingSlot()));
 		}
 		
 		public void registerMember() throws IOException {
+			addMember();
+			
 			char pressKey;
 			do {
-				getCars().add(new Car(licencePlate(),appartmentNum(), ownerName(), parkingSlot()));
-				System.out.println("\n"+"Would you like to [R] / [r]dd another member or continue [M] / [m]onitoring car park?"+"\n");
+				System.out.println("\n"+"Would you like to [A] / [a]dd another member or continue [M] / [m]onitoring car park?"+"\n");
 				try {
 					pressKey = getScan.next(".").charAt(0);
-					if (pressKey!='R' && pressKey != 'r' && pressKey !='m' && pressKey !='M') {
-						System.out.println("Invalid response !!!");
+					if (pressKey!='A' && pressKey != 'a' && pressKey !='m' && pressKey !='M') {
+						System.out.println("Sorry press either a or m");
 						continue;
 					}
-					else if (pressKey == 'R' || pressKey == 'r') {
+					else if (pressKey == 'A' || pressKey == 'a') {
 						System.out.println(" ");
-						continue;
+						registerMember();
+						break;
 					}
 					else {
 						break;
 					}
 				} catch (Exception e) {
-					System.out.println("Invalid response !!!");
+					System.out.println("Sorry press either A or M");
 					getScan.nextLine();
 					continue;
 				}

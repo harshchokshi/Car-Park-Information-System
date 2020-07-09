@@ -1,0 +1,112 @@
+
+Select an option from the menu below
+1. Register Car
+2. Display Members
+3. Monitor Incoming cars
+4. Exit
+
+Enter your option: 2
+ 
+------------------------------------------------------------------------------------- 
+                       REGISTER CAR PARK MEMBERS             
+ 
+Licence Number    Parking Slot           Owner Name    Appartment Number 
+------------------------------------------------------------------------------------- 
+    GJ1234             A11           Kanikaa Kapoor               A1 
+
+    G15599             A12           Karishma Kapoor              A1 
+
+    G17743             A21                Alia Bhatt              A2 
+
+
+Select an option from the menu below
+1. Register Car
+2. Display Members
+3. Monitor Incoming cars
+4. Exit
+
+Enter your option: 1
+ 
+Enter the car license number: GJ3498
+Enter the appartment number: A3
+Enter the name of the owner: Shreya Ghosal
+Allocate parking place: A31
+
+Would you like to [A] / [a]dd another member or continue [M] / [m]onitoring car park?
+
+A
+ 
+Enter the car license number: GJ8477
+Enter the appartment number: A3
+Enter the name of the owner: Kushal Ghosal
+Allocate parking place: A32
+
+Would you like to [A] / [a]dd another member or continue [M] / [m]onitoring car park?
+
+M
+
+Select an option from the menu below
+1. Register Car
+2. Display Members
+3. Monitor Incoming cars
+4. Exit
+
+Enter your option: M
+
+Unexpected input other than number. Try again !!!
+
+Select an option from the menu below
+1. Register Car
+2. Display Members
+3. Monitor Incoming cars
+4. Exit
+
+Enter your option: 3
+ 
+------------------------------------------------------------------------------------- 
+                       INCOMING CARS STATUS               
+------------------------------------------------------------------------------------- 
+GJ1234 is a registered car and allowed to park.
+GJ1234 is getting park at wrong place. Driver please park at your registered spot A11
+ 
+G15599 is a registered car and allowed to park.
+G15599 is getting park at wrong place. Driver please park at your registered spot A12
+ 
+Sorry G17742 is member of this car park and boom barrier will remain closed.
+
+Select an option from the menu below
+1. Register Car
+2. Display Members
+3. Monitor Incoming cars
+4. Exit
+
+Enter your option: 2
+ 
+------------------------------------------------------------------------------------- 
+                       REGISTER CAR PARK MEMBERS             
+ 
+Licence Number    Parking Slot           Owner Name    Appartment Number 
+------------------------------------------------------------------------------------- 
+    GJ1234             A11           Kanikaa Kapoor               A1 
+
+    G15599             A12           Karishma Kapoor              A1 
+
+    G17743             A21                Alia Bhatt              A2 
+
+    GJ3498             A31             Shreya Ghosal              A3 
+
+    GJ8477             A32             Kushal Ghosal              A3 
+
+
+Select an option from the menu below
+1. Register Car
+2. Display Members
+3. Monitor Incoming cars
+4. Exit
+
+Enter your option: 4
+ 
+ 
+-- Exiting Car Management System --
+ ----
+-- Goodbye! -- 
