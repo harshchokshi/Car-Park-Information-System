@@ -64,10 +64,7 @@ public class Car {
 
 	@Override
 	public String toString() {
-		//return "Car [getLicencePlate()=" + getLicencePlate() + ", getAppartmentNum()=" + getAppartmentNum()
-				//+ ", getOwnerName()=" + getOwnerName() + ", getParkingSlot()=" + getParkingSlot() + "]";
 		
-		//return	String.format("%-5s %-5s %-5s %-2s %-5s %-5s %-5s %-5s\n", "Licence Number:",  getLicencePlate(), "Parking Slot:", getParkingSlot(),"Owner Name:",  getOwnerName(), "Appartment:", getAppartmentNum());
 		return String.format("%10s %15s %25s %15s %n", getLicencePlate() ,  getParkingSlot(), getOwnerName(),  getAppartmentNum());		
 	}
 	public String licencePlate() throws IOException {
